@@ -6,8 +6,11 @@
 
 def linearSearch(data, target):
     """Return the index of target if found, otherwise return -1."""
-    
     # TODO: implement linear search
+    for i in range(len(data)):
+     if data[i] == target:
+          return i
+    
     
     return -1
 
@@ -16,6 +19,17 @@ def bubbleSort(data):
     """Sort the list using bubble sort and return the sorted list."""
     
     # TODO: implement bubble sort
+    sorted = False
+    while sorted == False:
+        sorted = True
+        for i in range(len(data)-1):
+            if data[i] > data[i+1]:
+                temp = data[i]
+                data[i] = data[i+1]
+                data[i+1] = temp
+                sorted = False
+
+
     
     return data
 

@@ -1,0 +1,12 @@
+1. The easiest list to sort was obviously the previously sorted list.
+as the bubble sort only had to make one pass through to make sure that 
+it as sorted.
+2. The reversed list actually required the most work to sort as the highest
+value was on the far left side and would take several passes to make it all
+the way to the other end.
+3. Sorting is useful before searching because it reduces the amount of numbers the
+program has to work through. You can split the list up and not be afraid of missing 
+important values
+4. Linear search might still be useful becuase it does not require sorting first,
+so if you aren't dealing with massive data sets it can be very useful for simplifying
+the code processes.
